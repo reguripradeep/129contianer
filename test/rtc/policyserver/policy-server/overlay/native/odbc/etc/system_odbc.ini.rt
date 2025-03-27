@@ -1,0 +1,76 @@
+
+[ustore]
+Driver=/opt/CA/siteminder/native/odbc/lib/libmaodbc.so
+Description= Connector ODBC MariaDB for MySQL
+SERVER=mysql.ihy.broadcom.net
+PORT=3306
+Database=ustore
+DMEnvAttr=SQL_ATTR_UNIXODBC_ENVATTR={MARIADB_PLUGIN_DIR=/opt/CA/siteminder/native/odbc/lib/plugin}
+OPTION=2
+SSLCA=/opt/CA/siteminder/config/odbcssl/ca.pem
+SSLCERT=/opt/CA/siteminder/config/odbcssl/clientcert.pem
+SSLKEY=/opt/CA/siteminder/config/odbcssl/clientkey.pem
+
+[ustore1]
+Driver=/opt/CA/siteminder/native/odbc/lib/libmaodbc.so
+Description= Connector ODBC MariaDB for MySQL
+SERVER=mysql1.ihy.broadcom.net
+PORT=3306
+Database=ustore
+DMEnvAttr=SQL_ATTR_UNIXODBC_ENVATTR={MARIADB_PLUGIN_DIR=/opt/CA/siteminder/native/odbc/lib/plugin}
+OPTION=2
+SSLCA=/opt/CA/siteminder/config/odbcssl/ca.pem
+SSLCERT=/opt/CA/siteminder/config/odbcssl/clientcert.pem
+SSLKEY=/opt/CA/siteminder/config/odbcssl/clientkey.pem
+
+
+[pstore1]
+Driver=/opt/CA/siteminder/native/odbc/lib/libmaodbc.so
+Description= Connector ODBC MariaDB for MySQL
+SERVER=mysql1.ihy.broadcom.net
+PORT=3306
+Database=pstore
+DMEnvAttr=SQL_ATTR_UNIXODBC_ENVATTR={MARIADB_PLUGIN_DIR=/opt/CA/siteminder/native/odbc/lib/plugin}
+OPTION=2
+SSLCA=/opt/CA/siteminder/config/odbcssl/ca.pem
+SSLCERT=/opt/CA/siteminder/config/odbcssl/clientcert.pem
+SSLKEY=/opt/CA/siteminder/config/odbcssl/clientkey.pem
+
+
+[astore1]
+Driver=/opt/CA/siteminder/native/odbc/lib/libmaodbc.so
+Description= Connector ODBC MariaDB for MySQL
+SERVER=mysql1.ihy.broadcom.net
+PORT=3306
+Database=astore
+DMEnvAttr=SQL_ATTR_UNIXODBC_ENVATTR={MARIADB_PLUGIN_DIR=/opt/CA/siteminder/native/odbc/lib/plugin}
+OPTION=2
+SSLCA=/opt/CA/siteminder/config/odbcssl/ca.pem
+SSLCERT=/opt/CA/siteminder/config/odbcssl/clientcert.pem
+SSLKEY=/opt/CA/siteminder/config/odbcssl/clientkey.pem
+
+
+[sstore1]
+Driver=/opt/CA/siteminder/native/odbc/lib/libmaodbc.so
+Description= Connector ODBC MariaDB for MySQL
+SERVER=mysql1.ihy.broadcom.net
+PORT=3306
+Database=sstore
+DMEnvAttr=SQL_ATTR_UNIXODBC_ENVATTR={MARIADB_PLUGIN_DIR=/opt/CA/siteminder/native/odbc/lib/plugin}
+OPTION=2
+SSLCA=/opt/CA/siteminder/config/odbcssl/ca.pem
+SSLCERT=/opt/CA/siteminder/config/odbcssl/clientcert.pem
+SSLKEY=/opt/CA/siteminder/config/odbcssl/clientkey.pem
+
+
+[kstore1]
+Driver=/opt/CA/siteminder/native/odbc/lib/libmaodbc.so
+Description= Connector ODBC MariaDB for MySQL
+SERVER=mysql1.ihy.broadcom.net
+PORT=3306
+Database=kstore
+DMEnvAttr=SQL_ATTR_UNIXODBC_ENVATTR={MARIADB_PLUGIN_DIR=/opt/CA/siteminder/native/odbc/lib/plugin}
+OPTION=2
+SSLCA=/opt/CA/siteminder/config/odbcssl/ca.pem
+SSLCERT=/opt/CA/siteminder/config/odbcssl/clientcert.pem
+SSLKEY=/opt/CA/siteminder/config/odbcssl/clientkey.pem
